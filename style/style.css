@@ -118,3 +118,10 @@ input:focus {
   border-bottom: 2px solid;
   outline: transparent;
 }
+.result {
+  color: var(--t4);
+  text-align: center;
+}
+.result h2{
+  padding: 5px;
+}

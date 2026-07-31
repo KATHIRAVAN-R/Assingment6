@@ -58,30 +58,36 @@ function calc() {
   } else {
     grade = "fail";
   }
-  let res_cont = document.getElementById("result");
-  res_cont.innerHTML =
-    "Student Name : " +
-    name +
-    // "<br> Tamil : " +
-    // tamil +
-    // "<br> English : " +
-    // english +
-    // "<br> Maths : " +
-    // maths +
-    // "<br> Science : " +
-    // science +
-    // "<br> social : " +
-    // social +
-    "<br> Total : " +
-    sum +
-    "<br> Average : " +
-    avg +
-    "<br> Percent : " +
-    percent +
-    "<br> GRADE : " +
-    grade;
-  // res_cont.style.color = "green";
-  res_cont.style.color = "#669CFF";
-  res_cont.style.textAlign = "center";
-  r
+  // let res_cont = document.getElementById("result");
+  // res_cont.innerHTML =
+  //   "Student Name : " +
+  //   name +
+  //   // "<br> Tamil : " +
+  //   // tamil +
+  //   // "<br> English : " +
+  //   // english +
+  //   // "<br> Maths : " +
+  //   // maths +
+  //   // "<br> Science : " +
+  //   // science +
+  //   // "<br> social : " +
+  //   // social +
+  //   "<br> Total : " +
+  //   sum +
+  //   "<br> Average : " +
+  //   avg +
+  //   "<br> Percent : " +
+  //   percent +
+  //   "<br> GRADE : " +
+  //   grade;
+  // // res_cont.style.color = "green";
+  // res_cont.style.color = "#669CFF";
+  // res_cont.style.textAlign = "center";
+
+  document.getElementById("res-total").innerHTML = "Total : " + sum;
+  document.getElementById("res-avg").innerHTML = "Average : " + avg;
+  document.getElementById("res-percent").innerHTML = "Percentage : " + percent + "% ";
+  document.getElementById("res-grade").innerHTML = "Grade : " + grade;
+
+  
 }

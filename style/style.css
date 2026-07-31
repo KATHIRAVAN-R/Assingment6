@@ -73,8 +73,16 @@ body {
 
 table {
   padding: 1em;
-  box-shadow: 5px 5px 5px 5px rgba(22, 34, 56, 0.349);
+  box-shadow: 2px 2px 5px 5px rgba(4, 12, 29, 0.233);
   border-radius: 1em;
+  background-color: var(--bg1);
+  background: #020024;
+  background: linear-gradient(
+    151deg,
+    rgba(2, 0, 36, 0.5) 0%,
+    rgba(9, 9, 121, 0.5) 17%,
+    rgba(0, 212, 255, 0.5) 100%
+  );
 }
 th,
 td {
@@ -109,4 +117,26 @@ input[type="button"] {
 input:focus {
   border-bottom: 2px solid;
   outline: transparent;
+}
+
+
+.result {
+  color: var(--t4);
+  font-size: 1.5vw;
+  padding: 1em;
+  text-align: center;
+  margin: auto;
+  font-weight: bolder;
+  box-shadow: 2px 2px 5px 5px rgba(4, 12, 29, 0.233);
+  border-radius: 1em;
+  background-color: var(--bg1);
+  background: #020024;
+  background: linear-gradient(
+    151deg,
+    rgba(2, 0, 36, 0.5) 0%,
+    rgba(9, 9, 121, 0.5) 17%,
+    rgba(0, 212, 255, 0.5) 100%
+  );
+  width: 50%;
+  margin: auto;
 }

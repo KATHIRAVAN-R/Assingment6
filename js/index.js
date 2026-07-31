@@ -58,26 +58,30 @@ function calc() {
   } else {
     grade = "fail";
   }
-  document.getElementById("result").innerHTML =
+  let res_cont = document.getElementById("result");
+  res_cont.innerHTML =
     "Student Name : " +
     name +
-    "<br> Tamil : " +
-    tamil +
-    "<br> English : " +
-    english +
-    "<br> Maths : " +
-    maths +
-    "<br> Science : " +
-    science +
-    "<br> social : " +
-    social +
+    // "<br> Tamil : " +
+    // tamil +
+    // "<br> English : " +
+    // english +
+    // "<br> Maths : " +
+    // maths +
+    // "<br> Science : " +
+    // science +
+    // "<br> social : " +
+    // social +
     "<br> Total : " +
     sum +
     "<br> Average : " +
     avg +
     "<br> Percent : " +
     percent +
-    "<br> GRADE " +
+    "<br> GRADE : " +
     grade;
-  document.getElementById("result").style.color = "red";
+  // res_cont.style.color = "green";
+  res_cont.style.color = "#669CFF";
+  res_cont.style.textAlign = "center";
+  r
 }

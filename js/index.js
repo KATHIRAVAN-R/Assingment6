@@ -43,8 +43,6 @@ function calc() {
 
   let avg = sum / 5;
 
-  let percent = (sum / 500) * 5;
-
   let grade;
 
   if (avg > 90) {
@@ -86,8 +84,7 @@ function calc() {
 // res_cont.style.background = "inear-gradient(151deg, rgba(2, 0, 36, 0.5) 0%, rgba(9, 9, 121, 0.5) 17%,rgba(0, 212, 255, 0.5) 100% ";
   document.getElementById("res-total").innerHTML = "Total : " + sum;
   document.getElementById("res-avg").innerHTML = "Average : " + avg;
-  document.getElementById("res-percent").innerHTML = "Percentage : " + percent + "% ";
   document.getElementById("res-grade").innerHTML = "Grade : " + grade;
-
+  res_cont.style.display = "block";
   
 }

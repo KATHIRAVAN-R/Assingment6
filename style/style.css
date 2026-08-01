@@ -155,7 +155,7 @@ input:focus {
   margin: auto;
 }
 .result {
-  color: var(--t4);
+  color: var(--w);
   text-align: center;
   border-radius: 1em;
   background: #020024;

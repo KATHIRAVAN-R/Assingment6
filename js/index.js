@@ -54,7 +54,7 @@ function calc() {
   } else if (avg > 40) {
     grade = "D";
   } else {
-    grade = "fail";
+    grade = "Fail";
   }
   let res_cont = document.getElementById("result");
   // res_cont.innerHTML =
